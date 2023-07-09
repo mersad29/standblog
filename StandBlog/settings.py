@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #my_apps
-    'Home',
+    'index',
     'account',
     'django_cleanup.apps.CleanupConfig',
 ]
