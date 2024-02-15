@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-*iv3!5-&^%&1%esfwpvlh2y1^(nhug)6(^2lxzn$rjz9^dk7j=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -30,7 +30,9 @@ INSTALLED_APPS = [
     #my_apps
     'index',
     'account',
+    #libraries
     'django_cleanup.apps.CleanupConfig',
+    'django_social_share'
 ]
 
 
@@ -58,6 +60,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'context_processors.context_processors.recent_articles',
+                'context_processors.context_processors.categories'
             ],
         },
     },
@@ -99,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fa-ir'
 
 TIME_ZONE = 'UTC'
 
@@ -115,7 +119,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "assets")]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# MEDIA_URL = '/media/'
+MEDIA_URL = '/media/'
 
 
 # Default primary key field type

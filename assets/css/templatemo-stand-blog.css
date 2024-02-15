@@ -398,11 +398,11 @@ header .navbar {
 /* Blog Posts */
 
 .blog-posts {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .blog-posts .blog-post {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .blog-posts .blog-thumb img {
@@ -555,7 +555,7 @@ ul.page-numbers li a:hover {
 
 .blog-posts .sidebar-heading h2 {
 	font-size: 18px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 900;
 	letter-spacing: 0.5px;
 	color: #20232e;
@@ -623,7 +623,7 @@ ul.page-numbers li a:hover {
 	height: 46px;
 	border: 1px solid #eee;
 	font-size: 13px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 500;
 	color: #7a7a7a;
 	outline: none;
@@ -636,7 +636,6 @@ ul.page-numbers li a:hover {
 	height: 46px;
 	border: 1px solid #eee;
 	font-size: 13px;
-	text-transform: uppercase;
 	font-weight: 500;
 	color: #7a7a7a;
 	outline: none;
@@ -660,7 +659,7 @@ ul.page-numbers li a:hover {
 	font-size: 13px;
 	font-weight: 500;
 	padding: 12px 20px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	transition: all .3s;
 	border: none;
 	outline: none;
@@ -686,7 +685,6 @@ ul.page-numbers li a:hover {
 
 .sidebar .sidebar-heading h2 {
 	font-size: 18px;
-	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: 0.5px;
 	color: #20232e;
@@ -700,7 +698,6 @@ ul.page-numbers li a:hover {
 	height: 50px;
 	border: 1px solid #eee;
 	font-size: 13px;
-	text-transform: uppercase;
 	font-weight: 500;
 	color: #7a7a7a;
 	outline: none;
